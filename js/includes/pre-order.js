@@ -73,7 +73,7 @@ $(function() {
             $.ajax({
                 type: "POST",
                 data: dataString,
-                url: "php/pre-order.php",
+                url: $(form).attr("action"),
                 cache: false,
                 success: function(d) {
                     $(".form-group").removeClass("has-success");

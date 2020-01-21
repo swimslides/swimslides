@@ -680,27 +680,27 @@ footer.row .menu-rights p {
 
 .product-desc .choose-form .option input[name="color"] + label[for="color-1"],
 .product-desc .choose-form .option input[name="os0"] + label[for="color-1"] {
-  background: #2eafff;
+  background: #000;
 }
 
 .product-desc .choose-form .option input[name="color"] + label[for="color-1"]:before,
 .product-desc .choose-form .option input[name="os0"] + label[for="color-1"]:before {
-  border-color: #2eafff;
+  border-color: #000;
 }
 
 .product-desc .choose-form .option input[name="color"] + label[for="color-2"],
 .product-desc .choose-form .option input[name="os0"] + label[for="color-2"] {
-  background: #5c2eff;
+  background: #888;
 }
 
 .product-desc .choose-form .option input[name="color"] + label[for="color-2"]:before,
 .product-desc .choose-form .option input[name="os0"] + label[for="color-2"]:before {
-  border-color: #5c2eff;
+  border-color: #888;
 }
 
 .product-desc .choose-form .option input[name="color"] + label[for="color-3"],
 .product-desc .choose-form .option input[name="os0"] + label[for="color-3"] {
-  background: #ff2e99;
+  background: #df47b1;
 }
 
 .product-desc .choose-form .option input[name="color"] + label[for="color-3"]:before,
@@ -710,22 +710,23 @@ footer.row .menu-rights p {
 
 .product-desc .choose-form .option input[name="color"] + label[for="color-4"],
 .product-desc .choose-form .option input[name="os0"] + label[for="color-4"] {
-  background: #ffe62e;
+  background: #313e67;
 }
 
 .product-desc .choose-form .option input[name="color"] + label[for="color-4"]:before,
 .product-desc .choose-form .option input[name="os0"] + label[for="color-4"]:before {
-  border-color: #ffe62e;
+  border-color: #313e67;
 }
 
 .product-desc .choose-form .option input[name="color"] + label[for="color-5"],
 .product-desc .choose-form .option input[name="os0"] + label[for="color-5"] {
-  background: #2effa1;
+  background: white;
+  border: solid 1px #df47b1;
 }
 
 .product-desc .choose-form .option input[name="color"] + label[for="color-5"]:before,
 .product-desc .choose-form .option input[name="os0"] + label[for="color-5"]:before {
-  border-color: #2effa1;
+  border-color: #df47b1;
 }
 
 .product-desc .choose-form .submit-area .btn:hover, .product-desc .choose-form .submit-area .btn:focus {
