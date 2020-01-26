@@ -77,35 +77,13 @@ $(function() {
                 cache: false,
                 success: function(d) {
                     $(".form-group").removeClass("has-success");
-                    if (d == 'success') {
-
-                        if (noredirect) {
                             setTimeout(function() {
                                 $(".js-preorder-btn").removeClass('sending').addClass('is-success');
                                 $(".js-preorder-btn span").html('<span class="checkmark"></span>');
                             }, 2000);
 
-                        } else {
-                            window.location.href = redirect;
-                        }
 
-                    } else {
-
-                        // Show failed message
-                        setTimeout(function() {
-                            $(".js-preorder-btn").removeClass('sending').addClass('is-failed');
-                            $(".js-preorder-btn span").text('Error!');
-                            console.log(d);
-                        }, 2000);
-
-                        // Revert to default if failed
-                        setTimeout(function() {
-                            $(".js-preorder-btn").removeClass('is-failed');
-                            $(".js-preorder-btn span").html('<span>Finish Purchase</span>');
-                            $(".js-preorder-btn").attr("disabled", false);
-                        }, 4000);
-
-                    }
+                    
                 },
                 error: function(d) {
 
