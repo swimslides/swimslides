@@ -3583,10 +3583,11 @@ footer.row {
 }
 
 .product-desc .choose-form .option {
-  float: left;
+  margin-top: 20px;
+  width:100%
 }
 
-@media (max-width: 991px) {
+/*@media (max-width: 991px) {
   .product-desc .choose-form .option:first-child {
     width: 100%;
   }
@@ -3617,7 +3618,7 @@ footer.row {
   .product-desc .choose-form .option + .option {
     margin-top: 0;
   }
-}
+}*/
 
 .product-desc .choose-form .option .form-label {
   text-transform: uppercase;
@@ -3725,7 +3726,7 @@ footer.row {
 }
 
 .product-desc .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
-  width: 82px;
+  width: 100%;
 }
 
 .product-desc .bootstrap-select .dropdown-toggle {
